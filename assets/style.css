@@ -2,13 +2,12 @@
     box-sizing: border-box;
 }
 .logo{
-    margin-left: 50px;
-    width: 120px;
-    height: 100px;
+    width: 10%;
+    height: 10%;
     
 }
 .head{
-    
+    width: 100%;
     font-variant: small-caps;
     background-color:rgb(68, 255, 0);
     display: flex;
@@ -19,15 +18,21 @@
 a{
     text-decoration: none;
 }
+.titile{
+    padding:3%;
+}
 .menu li{
-    font-size:x-large;
+    font-size:110%;
     font-weight: bold;
-    border-radius: 50px;
     list-style-type:none;
     display: inline-block;
-    padding: 5px 10px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
-.titile{
+.headline{
+    text-align: center;
+    background-color: aqua;
+    border-radius: 1em;
     color: rgb(0, 0, 0);
     padding-left: 20px;
     
@@ -118,25 +123,6 @@ align-items: center;
 ul li{
     font-weight: bold;
 }
-address{
-    display:flex;
-    font-size: large;
-    font-weight: bold;
-    font-variant: small-caps;
-    margin-left: 100px;
-    justify-content: space-between;
-    align-items: center;
-}
-address div{
-    
-}
-footer{
-    background-color:rgb(68, 255, 0);
-    color:rgb(0, 0, 0);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
 .wish{
     text-align: center;
     align-items: center;
@@ -165,31 +151,35 @@ footer{
     margin-left: auto;
     margin-right: auto;
 }
-.img{
+.wishline{
     display: flex;
     align-items: center;
-
 }
-address button{
-    background-color:rgba(253, 0, 0, 0.845);
-    font-weight: bold;
-    font-size: large;
-    font-variant: small-caps;
-}
-address p{
-    color: rgb(0, 0, 0);
+.wishline img{
+    width: 30%;
+    height: 30%;
 }
 .share{
     display: inline-flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.share li a{
+    text-decoration: overline;
 }
 .share a{
-    font-size: larger;
+    font-size: medium;
     color:wheat;
 }
-.share li{
-    border-radius: 10px;
-    padding: 20px;
-    margin: 20px;
+.share img{
+    background-color: aqua;
+    border-radius: 1em;
+    padding: 1%;
+}
+.share a{
+    border-radius: .3em;
+    padding: 1%;
+    margin: 1%;
     background-color: rgba(255, 0, 0, 0.674);
 }
 textarea{
@@ -209,4 +199,35 @@ textarea{
 }
 .moreinfo img{
     height: 25px;
-}
+}footer{
+    width: 100%;
+     border-radius: .5em;
+     display:inline-flex;
+     flex-wrap: wrap;
+     margin: 1%;
+     background-color: rgb(68, 255, 0);
+     justify-content: space-between;
+   }
+   footer a{
+     background-color:rgb(233, 10, 133);
+     font-size: small;
+     text-decoration: none;
+     color: rgb(0, 0, 0);
+     border-radius: .3em;
+   }
+   .list{
+     padding: 1%;
+   
+     margin: 1%;
+   }
+   footer li{
+     padding: 4%;
+     font-size: medium;
+   }
+   footer button{
+     background-color: brown;
+   }
+   address p {
+    color: black;
+     font-size: small;
+   }
