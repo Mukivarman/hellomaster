@@ -38,10 +38,10 @@ a{
     
 }
 .body{
-    background-image: url(./images/d.jpg);
-   background-color: black;
+   background-image: url(./images/pepper-red-hot-food-wallpaper-preview.jpg);
     font-variant: small-caps;
     background-attachment: fixed;
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -56,11 +56,15 @@ a{
     background-color: black;
 }
 .sec{  
+    filter: blur(20px);
     color: black;
     display: block;
     justify-content: start;
-    margin-left: 1%;
-    margin-right: 30%
+   margin-left: 20%;
+    margin-right: 20%
+}
+.sec:hover{
+    filter: blur(0px);
 }
 p{
     text-decoration: solid;
@@ -221,6 +225,7 @@ textarea{
      margin: 1%;
    }
    footer li{
+    list-style-type: none;
      padding: 4%;
      font-size: medium;
    }
