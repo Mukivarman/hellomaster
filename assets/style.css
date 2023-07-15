@@ -110,8 +110,8 @@ th,td{
 }
 video{
     display: block;
-    width: 400px;
-    height: 240px;
+    width: 80%;
+    height: 80%;
     margin-right: auto;
     margin-left: auto;
 }
